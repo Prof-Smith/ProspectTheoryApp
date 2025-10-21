@@ -22,7 +22,7 @@ bias_map = {
 
 # Define scenarios and correct answers (0 = EUT, 1 = PT)
 scenarios = [
-    ("Would you prefer to receive $500 for sure, or take a 50% chance to win $1000?", 1),
+    ("Would you prefer to receive 500 for sure, or take a 50% chance to win 1000?", 1),
     ("Would you prefer to lose $500 for sure, or take a 50% chance to lose $1000?", 1),
     ("Would you prefer a program that saves 200 people for sure, or one with a 1/3 chance all 600 are saved and 2/3 chance none are saved?", 1),
     ("Would you sell a mug you own for $5, or buy the same mug for $5?", 1),
