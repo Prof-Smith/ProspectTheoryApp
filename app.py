@@ -25,7 +25,6 @@ scenarios = [
     ("Would you prefer to receive 500 or a 50% chance to win 1000?", 0),
     ("Would you prefer to lose 500 or take a 50% chance to lose 1000?", 1),
     ("Would you prefer a program that saves 200 people for sure or one with a 1/3 chance all 600 are saved and 2/3 chance none are saved?", 0),
-    ("Would you sell a mug you own for 5 or buy the same mug for $5?", 1),
     ("Would you prefer a 1% chance to win 5000 or receive 50?", 1),
     ("Would you take a 50% chance to gain 100 and 50% chance to lose 100 or do nothing?", 0),
     ("You paid 100 for a concert ticket but feel sick. Would you still go or stay home?", 1),
