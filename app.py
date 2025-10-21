@@ -22,21 +22,21 @@ bias_map = {
 
 # Define scenarios and correct answers (0 = EUT, 1 = PT)
 scenarios = [
-    ("Receive $500 for sure vs. 50% chance to win $1000", 1),
-    ("Lose $500 for sure vs. 50% chance to lose $1000", 1),
-    ("200 people will be saved vs. 400 people will die", 1),
-    ("Sell mug vs. buy mug valuation", 1),
-    ("1% chance to win $5000 vs. $50 for sure", 1),
-    ("50% chance to gain $100, 50% chance to lose $100 vs. do nothing", 1),
-    ("Go to concert despite being sick after paying $100", 1),
-    ("100% chance to win $300 vs. 80% chance to win $400", 1),
-    ("Lost $10 vs. lost $10 concert ticket", 1),
-    ("$100 today vs. $110 in one month", 1),
-    ("Choose known risk over unknown risk", 1),
-    ("Avoid decision that may lead to regret", 1),
-    ("Underestimate time to complete a task", 1),
-    ("Stick with default option", 1),
-    ("Overestimate ability or knowledge", 1)
+    ("Would you prefer to receive $500 for sure, or take a 50% chance to win $1000?", 1),
+    ("Would you prefer to lose $500 for sure, or take a 50% chance to lose $1000?", 1),
+    ("Would you prefer a program that saves 200 people for sure, or one with a 1/3 chance all 600 are saved and 2/3 chance none are saved?", 1),
+    ("Would you sell a mug you own for $5, or buy the same mug for $5?", 1),
+    ("Would you prefer a 1% chance to win $5000, or receive $50 for sure?", 1),
+    ("Would you take a 50% chance to gain $100 and 50% chance to lose $100, or do nothing?", 1),
+    ("You paid $100 for a concert ticket but feel sick. Would you still go or stay home?", 1),
+    ("Would you prefer a 100% chance to win $300, or an 80% chance to win $400?", 1),
+    ("Would you behave differently if you lost $10 cash vs. lost a $10 concert ticket?", 1),
+    ("Would you prefer $100 today or $110 in one month?", 1),
+    ("Would you choose a known risk over an unknown risk with similar outcomes?", 1),
+    ("Would you avoid a decision that might lead to future regret?", 1),
+    ("Would you estimate a task will take less time than it usually does?", 1),
+    ("Would you stick with a default option rather than actively choosing an alternative?", 1),
+    ("Would you rate your ability or knowledge higher than average?", 1)
 ]
 
 # Initialize session state
