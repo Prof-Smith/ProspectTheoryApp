@@ -1,4 +1,4 @@
-# Convert the updated Streamlit app with interactive input and analysis into app.py
+# Regenerate app.py with improved formatting for decision options
 app_code = '''
 import streamlit as st
 import pandas as pd
@@ -7,7 +7,7 @@ import numpy as np
 st.title("Prospect Theory Decision-Making Activity")
 st.write("Please enter your choices and reflections for each decision round. After submission, the app will analyze your responses and provide feedback on rationality and behavioral biases.")
 
-# Define decision rounds manually
+# Define decision rounds manually with improved formatting
 rounds = [
     {"round": 1, "option_a": "80% chance to win $100, 20% chance to win $0", "option_b": "Guaranteed $75", "ev_a": 80, "ev_b": 75},
     {"round": 2, "option_a": "50% chance to win $200, 50% chance to lose $100", "option_b": "No change in wealth", "ev_a": 50, "ev_b": 0},
@@ -22,8 +22,8 @@ with st.form("student_input_form"):
     reflections = []
     for r in rounds:
         st.subheader(f"Round {r['round']}")
-        st.write(f"**Option A**: {r['option_a']}")
-        st.write(f"**Option B**: {r['option_b']}")
+        st.markdown(f"**Option A**: {r['option_a']}")
+        st.markdown(f"**Option B**: {r['option_b']}")
         choice = st.radio("Your choice:", ["Option A", "Option B"], key=f"choice_{r['round']}")
         reflection = st.text_area("Why did you choose this option?", key=f"reflection_{r['round']}")
         choices.append(choice)
@@ -89,4 +89,4 @@ if submitted:
 with open("app.py", "w") as f:
     f.write(app_code)
 
-print("Updated app.py file has been generated successfully.")
+print("Regenerated app.py file with improved formatting has been saved.")
